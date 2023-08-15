@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input>   </input>
+
+
+</body>
+<script>function  processInput(){
+      const uri = 'http://127.0.0.1:8080/get-resp/?text=dissertation word limit'
+   fetch(uri)
+  .then(res => res.text())
+  .then(res => {
+      console.log(res)
+  }
+
+  )
+}
+
+
+
+
+
+
+</script>
+</html>
